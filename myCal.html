@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my tip cal Document</title>
+    <link rel="stylesheet" href="myCal.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="container top-container">
+            <div class="title"> Bill total </div>
+            <div class="input-container">
+                <span class="span">$</span>
+                <input  id="text" class ="bill-total" type="text", placeholder="0.00">
+            </div>
+        </div>
+        <div class="container center-container">
+            <div class="title"> Tip </div>
+            <div class="input-container">
+                <span class="span">%</span>
+                <input id="text"  class="tip" type="text" placeholder="10">
+            </div>
+        </div>
+        <div class="container bottom-container">
+            <div class="title"> People</div>
+          <div class="buttons">
+            <span class="btn-container">
+              <button class="btn"><span class="increment">+</span></button>
+            </span>
+                <span class="span" id="span">1</span>
+            <span class="btn-container">
+              <button class="btn"><span class="decrement">-</span></butto>
+            </span>
+          </div>
+        </div>
+        <div class="total-container">
+            <div class="title">Total per person</div>
+            <div class="total">$0.00</div>
+
+        </div>
+    </div>
+    <script src="cal.js"></script>
+</body>
+</html>

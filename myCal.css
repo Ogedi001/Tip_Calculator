@@ -1,0 +1,101 @@
+* {
+    font-family: 'M PLUS Rounded 1c', Avenir Next, Helvetica, sans-serif;
+    color: white;
+  }
+body{
+    background-color: #4D4C7D;
+
+}
+.wrapper{
+    background-color: rgb(22, 0, 59);
+    height: 32.8rem;
+    width: 25rem;
+    margin: 50px auto;
+    border-radius: 1rem;
+    padding: 2.4rem 1.2rem ;
+}
+.title{
+    color: #dd6186f6;
+    margin-bottom: 0.8rem;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.span{
+    color: rgb(254, 254, 254);
+    font-size: rem;
+}
+.container{
+    margin-top: 2.1rem;
+}
+.bottom-container{
+    float:left ;
+    
+  }
+#span{
+    font-size: 1.6rem;
+    margin: 0.2rem;
+}
+.input-container{
+    background-color:#4c506a;
+    border-radius: 1.4rem;
+    padding: 0 0.8rem;
+    display: flex;
+    align-items: center;
+   
+
+}
+#text{
+    font-size: 1.2rem;
+    background: none;
+    border: none;
+    outline: none;
+    padding: none;
+  }
+  
+.btn {
+    background: #095a91;
+    background-image: -webkit-linear-gradient(top, #095a91, #7bb9e0);
+    background-image: -moz-linear-gradient(top, #095a91, #7bb9e0);
+    background-image: -ms-linear-gradient(top, #095a91, #7bb9e0);
+    background-image: -o-linear-gradient(top, #095a91, #7bb9e0);
+    background-image: linear-gradient(to bottom, #095a91, #7bb9e0);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    text-shadow: 1px 1px 3px #877f87;
+    font-family: Georgia;
+    color: #ffffff;
+    font-size: 0.75rem;
+    padding: 10px 20px 10px 20px;
+    border: solid #697d8a 2px;
+    text-decoration: none;
+    font-weight: bold;
+    display: grid;
+    place-items: center;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: center;
+  }
+  
+  
+  .btn:hover {
+    background: #e4eef5;
+    background-image: -webkit-linear-gradient(top, #e4eef5, #b2c9d9);
+    background-image: -moz-linear-gradient(top, #e4eef5, #b2c9d9);
+    background-image: -ms-linear-gradient(top, #e4eef5, #b2c9d9);
+    background-image: -o-linear-gradient(top, #e4eef5, #b2c9d9);
+    background-image: linear-gradient(to bottom, #e4eef5, #b2c9d9);
+    text-decoration: none;
+  }
+  
+  .total-container {
+    margin-top: 3.1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+  }
+  .total{
+    font-size: 2rem;
+  }
